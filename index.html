@@ -45,15 +45,106 @@
                 </div>
             </div>
         </div>
-        <div class="promo-feedback">
+        <div class="feedback-bag">
             <div class="container">
-                <div class="promo-feedback-people">
-                    <h3 class="promo-feedback-people__title">Петр Иванович :</h3>
-                    <p class="promo-feedback-people__one">Всё очень понравилось. 
-                        Изолировались вдвоем с супругой, порадовали цены (особенно семейные акции). Условия проживания на высоком уровне.</p>
+                <div class="feedback">
+                    <h2 class="feedback-title">Что о нас говорят:</h2>
+                    <div class="feedback-container">
+                        <div class="feedback-container-item">
+                            <h3 class="feedback-container-item__name">Петр Иванович :</h3>
+                            <p class="feedback-container-item__text">Всё очень понравилось. 
+                                Изолировались вдвоем с супругой, порадовали цены (особенно семейные акции). Условия проживания на высоком уровне.</p>
+                        </div>
+                        <div class="feedback-container-item">
+                            <h3 class="feedback-container-item__name">Игорь :</h3>
+                            <p class="feedback-container-item__text">Спасибо большое! Изоляция прошла с пользой! Побольше бы таких проектов!
+                                Успехов вам!</p>
+                        </div>
+                        <div class="feedback-container-item">
+                            <h3 class="feedback-container-item__name">Елена  :</h3>
+                            <p class="feedback-container-item__text">Понравилось оформление домов-бочек и спектр услуг! Для семьи из 4-х человек все условия, особенно хотелось отметить качество медицинских услуг! 
+                                Однозначно рекомендую!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
+        </div>
     </section>
+    <section class="form">
+        <div class="container container-form">       
+            <form action="#" class="form-form">
+                <h2 class="form-form__title">Найдите подходящий дом для вас:</h2>
+                <div class="form-form__input">
+                    <label for="form-region" class="form-form__label">Выберите население:</label>
+                    <select name="Region" id=Form-region" class="form-form__select">
+                        <option value="---" class="form-form__option" selected>---</option>
+                        <option value="Москвовская область" class="form-form__option">Москвовская область</option>
+                        <option value="Тульская область" class="form-form__option">Тульская область</option>
+                        <option value="Подольск" class="form-form__option">Подольск</option>
+                        <option value="Калуга" class="form-form__option">Калуга</option>
+                    </select>
+                </div>
+                <div class="form-date">
+                    <label for="" class="form-date__label">Выберите дату заселения:</label>
+                    <input type="date" class="form-date__input">
+                </div>
+                <div class="form-date">
+                    <label for="form-date" class="form-date__label">Выберите дату выселения:</label>
+                    <input type="date" class="form-date__input">
+                </div>
+                <div class="form-people">
+                    <label for="form-people" class="form-people__label">Количество человек</label>
+                    <input type="number" class="form-people__input" min="1" max="5">
+                </div>  
+                <button class="button form-form__button">Поиск</button>
+            </form>
+            <img src="./img/form.jpg" alt="" class="form-form__img">
+        </div>
+    </section>
+    <section class="action">
+        <div class="container container-action">
+            <div class="action-all">
+                <div class="action-desc">
+                    <h2 class="action-desc__title">Доступные акции сегодня:</h2>
+                    <p class="action-desc__text">Устали от городского шума, хотите провести время вынужденной изоляции на свежем воздухе и отрешиться от повседневных хлопот? Приезжайте на базу отдыха «Дача Поддубного». Здесь вас ждут комфортные и очень уютные домики-бочки, великолепные природные пейзажи и тишина, нарушаемая лишь пением птиц и мерным шумом крон величественных деревьев.</p>
+                </div>
+                <div class="action-list">
+                    <ul class="action-list-all">
+                        <h3 class="action-list__title">Отдых 2 дня и 1 ночь:</h3>
+                        <li class="action-list-all__item">Скидка 53% на 2 дня и 1 ночь проживания в домике для 2 человек (470 руб. вместо 1000 руб.)</li>
+                        <li class="action-list-all__item">Скидка 54% на 2 дня и 1 ночь проживания в домике для 3 человек (920 руб. вместо 2000 руб.)</li>
+                        <li class="action-list-all__item">Скидка 55% на 2 дня и 1 ночь проживания в домике для 4 человек (1350 руб. вместо 3000 руб.)</li>
+                        <li class="action-list-all__item">Скидка 56% на 2 дня и 1 ночь проживания в домике для 5 человек (1760 руб. вместо 4000 руб.)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="action-button">
+                <img src="./img/promotion1.jpg" alt="promotion" class="action-img">
+                <button class="action-button-button">Просмотр акции</button>
+            </div>    
+        </div>
+    </section>
+    <section class="closed">
+        <div class="container container-closed">
+            <div class="closed-menu">
+                <div class="closed-desc">
+                    <h2 class="closed-desc__title">Подписка для закрытия акции.</h2>
+                    <p class="closed-desc__text">Если вы хотите оформить подписку для закрытия акции, введите следующие данные:</p>
+                </div>
+                <form action="#" class="form-closed">
+                    <input type="email" class="form-closed__input" placeholder="Введите E-mail">
+                    <button class="button-closed">Оформить подписку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-contact">
+                <p class="footer-contact__text">Горячая линия</p>
+                <a href="#" class="footer-contact__tel">8 (800) 100-10-10</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

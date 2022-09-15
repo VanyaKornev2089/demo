@@ -1,0 +1,52 @@
+.action
+    background: #926a2a
+    padding: 70px 150px
+    &-img
+        width: 500px
+        border-radius: 10px
+    &-all
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-desc
+        display: flex
+        flex-direction: column
+        margin-bottom: 30px
+        &__title
+            margin-bottom: 15px
+            font-size: 30px
+        &__text
+            max-width: 400px
+            font-size: 16px
+            font-weight: bold
+            opacity: 0.7
+    &-list
+        display: flex
+        flex-direction: column
+        &__title
+            margin-bottom: 15px
+            font-size: 27px
+        &-all
+            &__item
+                margin-bottom: 10px
+                font-weight: bold
+                opacity: 0.7
+                &:last-of-type
+                    margin: 0
+    &-button
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        &-button
+            margin-top: 20px
+            padding: 15px 25px
+            width: 200px
+            border-radius: 10px
+            border: none
+            font-weight: bold
+            background: #814819
+            color: $white
+.container
+    &-action
+        max-width: 100%

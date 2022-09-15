@@ -18,29 +18,30 @@
         &__motto
             font-size: 25px
             margin-top: 30px
-    &-feedback
+.feedback
+    padding-top: 50px
+    padding-bottom: 50px
+    &-title
+        text-align: center
+        margin-bottom: 30px
+        font-size: 40px
+        color: #664106
+    &-bag
         background: $brown
-        padding-top: 50px
-        padding-bottom: 50px
-        &-people
-            &__title
-                background: #a36824
-                margin-bottom: 8px
-                padding: 10px 10px
-                border-radius: 8px
+    &-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &-item
+            margin-right: 70px
+            background: $brown
+            padding: 15px 15px
+            border-radius: 7px
+            border: 2px solid $dark
+            &__name
+                margin-bottom: 15px
                 position: relative
-                &::before
-                    content: ''
-                    width: 5px
-                    height: 10px
-                    top: 41px
-                    left: 145px
-                    position: absolute
-                    background: #664116
-            &__one
+            &__text
                 max-width: 300px
-                font-size: 18px
-                background: #a36824
-                padding: 10px 10px
-                border-radius: 8px
+                opacity: 0.7
         
