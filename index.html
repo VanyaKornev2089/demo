@@ -18,6 +18,7 @@
             </div>
         </div>
     </header>
+    <main>
     <section class="hero">
         <div class="container container-hero">   
             <ul class="hero-list">
@@ -78,9 +79,9 @@
                     <label for="form-region" class="form-form__label">Выберите население:</label>
                     <select name="Region" id=Form-region" class="form-form__select">
                         <option value="---" class="form-form__option" selected>---</option>
-                        <option value="Москвовская область" class="form-form__option">Москвовская область</option>
-                        <option value="Тульская область" class="form-form__option">Тульская область</option>
-                        <option value="Подольск" class="form-form__option">Подольск</option>
+                        <option value="Москвовская область" class="form-form__option">Омская область</option>
+                        <option value="Тульская область" class="form-form__option">Красноярский край</option>
+                        <option value="Подольск" class="form-form__option">Алтайский край</option>
                         <option value="Калуга" class="form-form__option">Калуга</option>
                     </select>
                 </div>
@@ -93,10 +94,10 @@
                     <input type="date" class="form-date__input">
                 </div>
                 <div class="form-people">
-                    <label for="form-people" class="form-people__label">Количество человек</label>
+                    <label for="form-people" class="form-people__label">Количество человек:</label>
                     <input type="number" class="form-people__input" min="1" max="5">
                 </div>  
-                <button class="button form-form__button">Поиск</button>
+                <a href="./search.html" class="button form-form__button">Поиск</a>
             </form>
             <img src="./img/form.jpg" alt="" class="form-form__img">
         </div>
@@ -138,11 +139,31 @@
             </div>
         </div>
     </section>
+</main>
     <footer class="footer">
-        <div class="container">
-            <div class="footer-contact">
-                <p class="footer-contact__text">Горячая линия</p>
-                <a href="#" class="footer-contact__tel">8 (800) 100-10-10</a>
+        <div class="container container-footer">
+            <div class="footer-link">
+                <div class="footer-contact">
+                    <p class="footer-contact__text">Горячая линия:</p>
+                    <a href="#" class="footer-contact__tel">8 (800) 100-10-10</a>
+                </div>
+                <div class="footer-footer">
+                    <div class="footer-call">
+                        <a href="href=”http://xxxxxx-m1.wsr.ru/return" class="footer-call__return">Return</a>
+                        <a href="href=”http://xxxxxx-m1.wsr.ru/feedback" class="footer-call__feedback">Feedback</a>
+                    </div>
+                    <div class="footer-call">
+                        <a href="http://xxxxxx-m1.wsr.ru/news" class="footer-call__return">News</a>
+                        <a href="http://xxxxxx-m1.wsr.ru/contact" class="footer-call__feedback">Contact</a>
+                    </div>
+                    <div class="footer-call">
+                        <a href="http://xxxxxx-m1.wsr.ru/signup" class="footer-call__return">Sign up</a>
+                        <a href="http://xxxxxx-m1.wsr.ru/login" class="footer-call__feedback">Login</a>
+                    </div>
+                </div>
+                <div class="footer-call">
+                    <a href="http://xxxxxx-m1.wsr.ru" class="footer-call__return">Home</a>
+                </div>
             </div>
         </div>
     </footer>

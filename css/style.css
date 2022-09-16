@@ -228,6 +228,7 @@ html {
   color: #fdfdfd;
   width: 216px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .container-form {
@@ -374,7 +375,14 @@ html {
 
 .footer {
   padding: 50px 100px;
-  background: #000000b7;
+  background: #8d4205b7;
+  border-top: 2px solid #000;
+}
+
+.footer-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-contact {
@@ -384,5 +392,121 @@ html {
 
 .footer-contact__text {
   margin-bottom: 10px;
+}
+
+.footer-contact__tel {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-call {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border: none;
+  margin-left: 30px;
+}
+
+.footer-call__return {
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-call__feedback {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kemping {
+  padding: 100px;
+  background: #291d06;
+}
+
+.kemping-map {
+  margin-top: 100px;
+  margin-right: 30px;
+  font-weight: bold;
+  background: #53380c;
+  padding: 40px 50px 30px 40px;
+  border-radius: 5px;
+}
+
+.kemping-map__title {
+  margin-bottom: 30px;
+  color: #d4a876;
+  font-size: 40px;
+}
+
+.kemping-map__region {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  color: #c07a2a;
+}
+
+.kemping-map__name {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.kemping-map__number {
+  margin-bottom: 20px;
+}
+
+.kemping-map__region1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #c07a2a;
+}
+
+.kemping-info {
+  display: flex;
+}
+
+.kemping-info__img {
+  width: 600px;
+  margin-left: 70px;
+  border-radius: 7px;
+  border: 2px solid #000000b7;
+}
+
+.kemping-info1 {
+  display: flex;
+  justify-content: end;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container1 {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.container1-kemping {
+  max-width: 100%;
+}
+
+.button-kemping {
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
